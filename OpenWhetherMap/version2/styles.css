@@ -1,0 +1,94 @@
+/* Reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f8ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: #333;
+}
+
+.container {
+    background: #fff;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 350px;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+    font-weight: 500;
+}
+
+.select-container {
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+label {
+    font-size: 1.1em;
+    font-weight: 500;
+    color: #555;
+}
+
+select,
+button {
+    width: 100%;
+    padding: 12px;
+    font-size: 1em;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+select {
+    background-color: #f9f9f9;
+    cursor: pointer;
+}
+
+button {
+    background-color: #4CAF50;
+    color: #fff;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: #444;
+    text-align: left;
+    display: none;
+}
+
+.weather-info {
+    margin-top: 15px;
+    font-size: 1.1em;
+    color: #333;
+}
+
+.weather-info span {
+    font-weight: 500;
+}
+
+#error {
+    color: red;
+    font-weight: bold;
+}
