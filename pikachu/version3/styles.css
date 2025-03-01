@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+h1,
+h2 {
+    color: #ff4500;
+}
+
+.search-container,
+.compare-container {
+    margin: 20px auto;
+}
+
+input {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #ff4500;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #e03e00;
+}
+
+#pokemonContainer,
+#comparisonResult {
+    margin-top: 20px;
+}
+
+.pokemon-card {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.pokemon-card img {
+    width: 150px;
+}
+
+ul {
+    list-style: none;
+}

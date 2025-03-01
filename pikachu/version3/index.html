@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokémon Finder</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <h1>Pokémon Finder</h1>
+
+    <!-- Pokémon Search -->
+    <div class="search-container">
+        <input type="text" id="pokemonName" placeholder="Enter Pokémon Name">
+        <button onclick="fetchPokemon()">Search</button>
+    </div>
+
+    <div id="pokemonContainer"></div>
+
+    <!-- Compare Pokémon -->
+    <h2>Compare Pokémon</h2>
+    <div class="compare-container">
+        <input type="text" id="pokemon1" placeholder="First Pokémon">
+        <input type="text" id="pokemon2" placeholder="Second Pokémon">
+        <button onclick="comparePokemon()">Compare</button>
+    </div>
+
+    <div id="comparisonResult"></div>
+
+    <!-- Save Favorites -->
+    <h2>Your Pokémon Team</h2>
+    <ul id="teamList"></ul>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
